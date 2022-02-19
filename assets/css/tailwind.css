@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply text-dark text-base font-medium;
+    }
+    img {
+        @apply inline-block;
+    }
+    p {
+        @apply mb-4 last:mb-0 leading-6;
+    }
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        @apply font-medium leading-6;
+    }
+    h3 {
+        @apply text-[24px];
+    }
+    h4 {
+        @apply text-xl;
+    }
+    h5 {
+        @apply text-lg;
+    }
+    li {
+        @apply last:mr-0;
+    }
+    a {
+        @apply transition;
+    }
+}
+
+@layer components {
+    .py-section {
+        @apply md:py-[90px] py-15;
+    }
+    .pt-section {
+        @apply md:pt-[90px] pt-15;
+    }
+    .pb-section {
+        @apply md:pb-[90px] pb-15;
+    }
+}
+
+@layer utilities {
+    .category.food {
+        @apply bg-[#f9e7a0]
+    }
+}
+
