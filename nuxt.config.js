@@ -45,6 +45,19 @@ export default {
         '@nuxtjs/axios',
     ],
 
+    /* axios: {
+        withCredentials: true,
+        auth: {
+            consumer_key: 'ck_ee0ecaa19b04a8090dc2bc527499358b8183f68c',
+            consumer_secret: 'cs_86c89ee5116f4d80d27f73e8d3ba42956387c0a7'
+        },
+        config: {
+            headers: {
+                'Access-Control-Allow-Origin': '*'
+            }
+        }
+    }, */
+
     styleResources: {
         scss: ['~/assets/scss/style.scss'],
     },
